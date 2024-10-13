@@ -8,6 +8,7 @@ plugins {
 	kotlin("plugin.allopen") version "1.9.22"
 	kotlin("plugin.jpa") version "1.9.22"
 	kotlin("kapt") version "1.9.22"
+	id("org.jetbrains.kotlinx.kover") version "0.9.0-RC"
 }
 
 group = "com.example"
